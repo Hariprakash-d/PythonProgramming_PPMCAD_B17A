@@ -1,0 +1,18 @@
+<html lang="en">
+    {% include 'nav-bar.html' %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programing..!</title>
+</head>
+<body>
+    <h1>Hello, {{ first_name }}! we are learning Python programming!</h1>
+    <button onclick="showMessage()">Click Me</button>
+
+    <script>
+        function showMessage() {
+            alert("Hello, {{ first_name }}! You clicked the button!");
+        }
+    </script>
+</body>
+</html>
