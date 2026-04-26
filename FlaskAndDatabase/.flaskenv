@@ -1,0 +1,5 @@
+FLASK_APP =app.py
+FLASK_DEGBUG = True
+FLASK_PORT = 5000
+FLASK_ENV = development
+
